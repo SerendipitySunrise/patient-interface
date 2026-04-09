@@ -90,7 +90,7 @@ body {
 
 .header-text h1 {
     font-size: 1.8rem;
-    font-weight: 800; /* This makes it extra bold */
+    font-weight: 800; 
     color: var(--navy);
     margin: 0;
     text-transform: uppercase;
@@ -160,7 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 800px; /* Keeps the form from being too wide on large screens */
+    max-width: 800px; 
     margin: 0 auto;
     width: 100%;
     margin-top: 20px;
