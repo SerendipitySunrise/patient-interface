@@ -91,7 +91,7 @@ body {
 
 .header-text h1 {
     font-size: 1.8rem;
-    font-weight: 800; /* This makes it extra bold */
+    font-weight: 800;
     color: var(--navy);
     margin: 0;
     text-transform: uppercase;
@@ -106,12 +106,12 @@ body {
 
 /* --- Queue Grid Styling --- */
 .queue-grid {
-    display: flex; /* Changed from grid to flex for better control of card sizing */
-    justify-content: center; /* Aligns cards to the left; use 'center' if preferred */
-    gap: 30px; /* Increased gap for better spacing */
+    display: flex; 
+    justify-content: center; 
+    gap: 30px; 
     margin-top: 25px;
     margin-bottom: 30px;
-    flex-wrap: wrap; /* Ensures they stack on small screens */
+    flex-wrap: wrap; 
 }
 
 .status-card {
@@ -122,8 +122,8 @@ body {
     text-align: center;
     transition: transform 0.2s ease;
     margin-bottom: 20px;
-    width: 300px; /* Fixed width to prevent them from being too wide */
-    flex-shrink: 0; /* Prevents the cards from being squeezed */
+    width: 300px; 
+    flex-shrink: 0; 
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.418);
 }
 
@@ -152,7 +152,7 @@ body {
 }
 
 .status-card:nth-child(2) .highlight-number {
-    color: #f59e0b; /* Amber/Orange color */
+    color: #f59e0b;
 }
 
 .highlight-number.accent-color {
