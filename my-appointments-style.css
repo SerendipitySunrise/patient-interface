@@ -55,7 +55,7 @@ body {
 /* --- Sidebar --- */
 .sidebar {
   width: 220px;
-  flex-shrink: 0; /* Keeps sidebar fixed size */
+  flex-shrink: 0; 
   background: white;
   border-radius: 15px;
   padding: 20px;
@@ -99,7 +99,7 @@ body {
 
 .header-text h1 {
     font-size: 1.8rem;
-    font-weight: 800; /* This makes it extra bold */
+    font-weight: 800; 
     color: var(--navy);
     margin: 0;
     text-transform: uppercase;
