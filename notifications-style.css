@@ -91,7 +91,7 @@ body {
 
 .header-text h1 {
     font-size: 1.8rem;
-    font-weight: 800; /* This makes it extra bold */
+    font-weight: 800; 
     color: var(--navy);
     margin: 0;
     text-transform: uppercase;
